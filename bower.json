@@ -1,11 +1,11 @@
 {
   "name": "babylonjs-dist",
   "description": "Babylon.js is a complete JavaScript framework for building 3D games with HTML 5 and WebGL",
-  "main": "./dist/babylon.2.5.js",
+  "main": "./dist/babylon.js",
   "homepage": "https://www.babylonjs.com",
   "repository": {
     "type": "git",
-    "url": "git://github.com/fdmota/Babylon.js.git"
+    "url": "git://github.com/fdmota/Babylon.js-dist.git"
   },
   "authors": [
     "David Catuhe",
@@ -22,6 +22,6 @@
   "ignore": [
     "*",
     "**",
-    "**/.*"
+    "!/dist"
   ]
 }
